@@ -8,10 +8,9 @@ Parent:       Organization
 * type contains facility 1..1
 * type[facility] = #facility (exactly)
 
-* type 1..
+* type 1..*
 
 Instance: MyOrg1
 InstanceOf: MyOrganization
-
 * type[+] =  #facility
-* type[+] =  #facility2
+* type[+] =  #other
